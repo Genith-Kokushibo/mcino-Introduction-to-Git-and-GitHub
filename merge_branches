@@ -1,7 +1,7 @@
 $ git checkout main
-Already on 'main'
-M	merge_branches
-Your branch is ahead of 'origin/main' by 2 commits.
-  (use "git push" to publish your local commits)
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
 $ git merge bug-fix-typo
-Already up to date.
+Merge made by the 'ort' strategy.
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
