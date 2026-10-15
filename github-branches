@@ -1,0 +1,17 @@
+$ git branch -avv
+  bug-fix-revert                56fed7a [origin/bug-fix-revert] Fix pull request verification output
+  bug-fix-typo                  ea6e39a Fix typo in README
+* main                          335ce4b [origin/main] Add pull request verification output
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert 56fed7a Fix pull request verification output
+  remotes/origin/main           335ce4b Add pull request verification output
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	github-branches
+
+nothing added to commit but untracked files present (use "git add" to track)
